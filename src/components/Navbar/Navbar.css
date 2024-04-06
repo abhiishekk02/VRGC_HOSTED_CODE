@@ -1,0 +1,39 @@
+html {
+  scroll-behavior: auto;
+}
+
+/* Navbar - */
+.navigation-bar {
+  backdrop-filter: blur(12px);
+  background-color: #f9f7f7c4;
+}
+.brand-logo.navbar-brand {
+  display: contents;
+}
+
+.brand-logo img {
+  padding: 1rem 1rem;
+  max-width: 230px;
+  width: 100%;
+}
+
+.nav-links {
+  margin-right: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #828282;
+}
+
+.nav-links.active {
+  color: black;
+}
+
+/* Media CSS */
+@media (max-width: 768px) {
+  .brand-logo-img {
+    max-width: 150px;
+  }
+  .nav-links {
+    padding: 10px;
+    margin-left: 20px;
+  }
+}
